@@ -64,3 +64,21 @@ This is an independent learning project. It is **not** an official hazard assess
 ## Related
 
 [nepal-river-watch](https://github.com/Tilakthapa3/nepal-river-watch): live DHM river gauge monitor with Telegram alerts
+
+## Results: Tsho Rolpa, post-monsoon (Oct-Nov)
+
+Rolwaling Valley, Dolakha. Measured in the Earth Engine Code Editor with the same method (Sentinel-2, NDWI > 0.2, largest water body only).
+
+| Year | Area (km²) |
+|------|-----------:|
+| 2017 | 1.571 |
+| 2018 | 1.584 |
+| 2019 | 1.636 |
+| 2020 | 1.637 |
+| 2021 | 1.629 |
+| 2022 | 1.648 |
+| 2023 | 1.643 |
+| 2024 | 1.654 |
+| 2025 | 1.651 |
+
+Tsho Rolpa grew about 5% from 2017 to 2025, much slower than Imja Tsho's roughly 30%, with growth at the glacier (southeast) end.
