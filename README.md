@@ -28,7 +28,7 @@ The lake grew roughly 30% between 2017 and 2024.
 
 Rolwaling Valley, Dolakha. Measured in the Earth Engine Code Editor with the same method (Sentinel-2, NDWI > 0.2, largest water body only).
 
-![Tsho Rolpa area over time](tsho_rolpa_area.png)
+![Tsho Rolpa area over time](tsho_rolpa_area.PNG)
 
 | Year | Area (km²) |
 |------|-----------:|
