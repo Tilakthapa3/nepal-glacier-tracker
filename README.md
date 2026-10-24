@@ -4,7 +4,7 @@ Tracks the growth of Nepal's high-risk glacial lakes using free satellite imager
 
 Glacial lakes in the Himalaya are growing as glaciers melt. If a moraine dam fails, the result is a glacial lake outburst flood (GLOF) that can hit villages downstream with little warning. This project measures how fast these lakes are growing, using public data that anyone can check.
 
-v1 covers one lake: **Imja Tsho** (Everest region, Solukhumbu).
+Covers two lakes so far: **Imja Tsho** (Everest region, Solukhumbu) and **Tsho Rolpa** (Rolwaling Valley, Dolakha).
 
 ![Imja Tsho area over time](imja_tsho_area.png)
 
@@ -23,6 +23,26 @@ v1 covers one lake: **Imja Tsho** (Everest region, Solukhumbu).
 | 2025 | 1.656 | 9 |
 
 The lake grew roughly 30% between 2017 and 2024.
+
+## Results: Tsho Rolpa, post-monsoon (Oct-Nov)
+
+Rolwaling Valley, Dolakha. Measured in the Earth Engine Code Editor with the same method (Sentinel-2, NDWI > 0.2, largest water body only).
+
+![Tsho Rolpa area over time](tsho_rolpa_area.png)
+
+| Year | Area (km²) |
+|------|-----------:|
+| 2017 | 1.571 |
+| 2018 | 1.584 |
+| 2019 | 1.636 |
+| 2020 | 1.637 |
+| 2021 | 1.629 |
+| 2022 | 1.648 |
+| 2023 | 1.643 |
+| 2024 | 1.654 |
+| 2025 | 1.651 |
+
+Tsho Rolpa grew about 5% from 2017 to 2025, much slower than Imja Tsho's roughly 30%, with growth at the glacier (southeast) end.
 
 ## How it works
 
@@ -57,28 +77,10 @@ This is an independent learning project. It is **not** an official hazard assess
 
 ## Roadmap
 
-- Add more high-risk lakes (Tsho Rolpa, Thulagi, and others)
+- Add more high-risk lakes (Thulagi and others)
 - Extend history back with Landsat imagery
 - Post periodic updates to the [Nepal River Watch](https://github.com/Tilakthapa3/nepal-river-watch) Telegram channel
 
 ## Related
 
 [nepal-river-watch](https://github.com/Tilakthapa3/nepal-river-watch): live DHM river gauge monitor with Telegram alerts
-
-## Results: Tsho Rolpa, post-monsoon (Oct-Nov)
-
-Rolwaling Valley, Dolakha. Measured in the Earth Engine Code Editor with the same method (Sentinel-2, NDWI > 0.2, largest water body only).
-
-| Year | Area (km²) |
-|------|-----------:|
-| 2017 | 1.571 |
-| 2018 | 1.584 |
-| 2019 | 1.636 |
-| 2020 | 1.637 |
-| 2021 | 1.629 |
-| 2022 | 1.648 |
-| 2023 | 1.643 |
-| 2024 | 1.654 |
-| 2025 | 1.651 |
-
-Tsho Rolpa grew about 5% from 2017 to 2025, much slower than Imja Tsho's roughly 30%, with growth at the glacier (southeast) end.
